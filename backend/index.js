@@ -9,11 +9,11 @@ app.use(express.json()); // this allows us to send any json file using client
 
 
   const db = mysql.createConnection({
-    host: "monorail.proxy.rlwy.net",
-    user: "root",
-    password: "CanZGrUETWFFFToLATqMDGYMlMOFyxBF",
-    database: "railway",
-    port : 23684,
+    host: "",
+    user: "",
+    password: "",
+    database: "",
+    port : 324,
   });
 
 
